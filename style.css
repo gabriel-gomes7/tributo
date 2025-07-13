@@ -31,7 +31,7 @@ img{
 /* imagem destaque centraliza*/
 .featured-image{
     text-align: center;
-    .margin-top: 30px;
+    margin-top:30px;
 }
 /* Biografia */
 .biography-container{
