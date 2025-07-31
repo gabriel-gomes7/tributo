@@ -15,7 +15,7 @@ html{
 /* feito por conta pq as imagens eram grandonas */
 img{
     width: 50%;
-    height: auto;
+    height: auto;   
 }
 .header{
     text-align: center;
@@ -66,4 +66,13 @@ img{
 
 .curiosities-container li{
     height: 30px;
+}
+
+.curiosities-container ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+body, .main-title, .paragraph, .biography-container, .quotes-container, .curiosities-container, .moreinfo-container {
+    text-align: center;
 }
