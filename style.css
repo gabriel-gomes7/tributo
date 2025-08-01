@@ -1,70 +1,80 @@
-html{
+html {
     font-family: helvetica;
     background-color: #ddd;
 }
-.container{
+
+.container {
     max-width: 1100px;
     background-color: #fff;
     position: relative;
     margin: 50px auto;
     padding: 20px 50px;
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
+
 /* feito por conta pq as imagens eram grandonas */
-img{
+img {
     width: 50%;
-    height: auto;   
+    height: auto;
 }
-.header{
+
+.header {
     text-align: center;
     margin-bottom: 20px;
 }
-.main-title{
+
+.main-title {
     font-size: 40px;
 }
-.main-paragraph{
-   
+
+.main-paragraph {
+
     font-style: italic;
 }
+
 /* imagem destaque centraliza*/
-.featured-image{
+.featured-image {
     text-align: center;
-    margin-top:30px;
+    margin-top: 30px;
 }
+
 /* Biografia */
-.biography-container{
+.biography-container {
     padding: 25px 0;
     margin: 25px 0;
     border-top: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;
 }
+
 /* quotes */
-.quotes-container{
+.quotes-container {
     background-color: #ddd;
     padding: 30px;
-    
+
 }
-    .quotes-container blockquote{
-        font-weight: bold;
-        font-size: 30px;
-    }
 
-    .quotes-container p{
-    
-        font-style: italic;
-    }
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
 
-    /* curiosidades */
-.curiosities-container{
+.quotes-container p {
+
+    font-style: italic;
+}
+
+/* curiosidades */
+.curiosities-container {
     padding: 25px 0;
     margin: 25px 0;
     border-top: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;
 }
 
-.curiosities-container li{
+.curiosities-container li {
     height: 30px;
 }
 
@@ -73,6 +83,12 @@ img{
     text-align: center;
 }
 
-body, .main-title, .paragraph, .biography-container, .quotes-container, .curiosities-container, .moreinfo-container {
+body,
+.main-title,
+.paragraph,
+.biography-container,
+.quotes-container,
+.curiosities-container,
+.moreinfo-container {
     text-align: center;
 }
